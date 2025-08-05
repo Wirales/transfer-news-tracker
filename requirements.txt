@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+pandas
+praw # for reddit
+
+streamlit
+lxml
+tabulate
