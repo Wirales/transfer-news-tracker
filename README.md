@@ -11,10 +11,18 @@ A Streamlit web app that helps you track football transfer rumors by querying Go
 - Persists trust levels and votes using local JSON files.
 - Built with Streamlit and deployable via Streamlit Cloud or locally.
 
+## Screenshots
+
+### Player Input and Trust Filter Configuration
+![Search Input](assets/screenshot_input_config.png)
+
+### Filtered Transfer News Results
+![Results View](assets/screenshot_results_view.png)
+
 ## Demo
 
 Example usage:
-- Input a player name like `Rodrygo` or a team like `Manchester United`.
+- Input a player name like `Arda Güler`
 - See transfer rumors across sources
 - Filter by trust level and domain
 
@@ -45,8 +53,10 @@ streamlit run app.py
 │   ├── trust_levels.json
 │   ├── trust_votes.json
 │   └── unknown_sources.json
-├── assets/                 # UI icon
-│   └── transfer_icon.png
+├── assets/                 # UI icon and screenshots
+│   ├── transfer_icon.png
+│   ├── screenshot_input_config.png
+│   └── screenshot_results_view.png
 └── requirements.txt
 ```
 
